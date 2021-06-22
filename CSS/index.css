@@ -1,0 +1,302 @@
+/* main开始 */
+.main{
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;   
+    margin-top: 10px;
+}
+.main .focus{
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
+}
+.main .focus a{
+    position: absolute;
+    display: none;
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(0,0,0,.3);
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+}
+.main .focus .focus_l{
+    top: 50%;
+    margin-top: -20px;
+}
+.main .focus .focus_r{
+    top: 50%;
+    margin-top: -20px;
+    right: 0px;
+}
+.main .focus ul{
+    position: relative;
+    width: 600%;
+}
+.main .focus ul li{
+    float: left;
+}
+.main .focus .circle{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -24px;
+}
+.main .focus .circle li{
+    float: left;
+    height: 12px;
+    width: 12px;
+    margin: 0 3px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.main .focus .circle .current{
+    background-color: orange;
+}
+
+.main .newsflash{
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.main .news{
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.main .newsflash .news .new_hd{
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.main .newsflash .news .new_hd a::after{
+    content: '\e920';
+    font-family: 'icomoon';
+}
+.main .newsflash .news .new_hd h5{
+    float: left;
+    padding-left: 16px;
+    font-size: 14px;
+}
+.main .newsflash .news .new_hd a{
+    float: right;
+    padding-right: 15px;
+    font-size: 12px;
+}
+
+.main .newsflash .news .new_bd{
+    margin: 5px 0 0 17px;
+}
+.main .newsflash .news .new_bd li{
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.main .lifeservice{
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+.main .lifeservice ul{
+    width: 252px;
+}
+.main .lifeservice ul li{
+    float: left;
+    height: 71px;
+    width: 63px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.main .bargain{
+    margin-top: 5px;
+}
+.main .lifeservice i{
+    position: relative;
+    display: inline-block;
+    height: 28px;
+    width: 24px;
+    margin-top: 12px;
+    background:url(../image/icons.png) no-repeat -18px -15px;
+}
+/* main结束 */
+/* recom推荐开始 */
+.recom{
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+.recom .recom_hd{
+    float: left;
+    height: 163px;
+    width: 204px;
+    padding-top: 30px;
+    padding-left: 60px;
+    background-color: #5c5251;
+}
+.recom .recom_bd{
+    float: left;
+}
+.recom .recom_bd ul li img{
+    height: 163px;
+    width: 249px;
+}
+.recom .recom_bd ul li{
+    float: left;
+    position: relative;
+}
+.recom .recom_bd ul li:nth-child(-n+3)::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+/* recom推荐结束 */
+/* 猜你喜欢开始 */
+.love .love_hd{
+    height: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.love .love_hd h4{
+    float: left;
+    font-size: 18px;
+}
+.love .love_hd p{
+    float: right;
+    line-height: 28px;
+    margin-right: 10px;
+}
+.love .love_hd p::after{
+    display: inline-block;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    background: url(../image/icons.png) no-repeat -419px -109px ;
+}
+.love .love_bd{
+    height: 230px;
+}
+.love .love_bd li{
+    float: left;
+    padding: 0 20px;
+}
+/* 猜你喜欢结束 */
+
+/* 楼层开始 */
+.floor .box_hd{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.floor .box_hd h3{
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+    color: #c81623;
+}
+.floor  .box_hd ul{
+    float: right;
+}
+.floor  .box_hd ul li{
+    float: left;
+    font-size: 12px;
+}
+.floor  .box_hd ul li a{
+    padding: 0 14px;
+}
+.floor  .box_hd ul li a:hover{
+    color: #c81623;
+}
+.floor  .box_bd{
+    height: 361px;
+}
+.floor .box_bd .tab_list_item>div{
+    float: left;
+    height: 361px;
+}
+.floor .box_bd .tab_list_item>div a{
+    display: inline-block;
+}
+.floor .box_bd .tab_list_item{
+    overflow: hidden;
+}
+.col_210{
+    width: 210px;
+    background-color: #f9f9f9;
+}
+.col_329{
+    width: 329px;
+}
+.col_221{
+    width: 221px;  
+    border-right: 1px solid #ccc;
+}
+.col_219{
+    width: 219px;
+}
+.col_221 img{
+    border-bottom: 1px solid #ccc;
+}
+.col_219 img{
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.floor .box_bd li{
+    float: left;
+    height: 34px;
+    width: 85px;
+    text-align: center;
+    line-height: 34px;
+    margin: 0 10px;
+    border-bottom: 1px solid #ededed;
+}
+.floor .box_bd img{
+    transition: all 0.5s;
+}
+.floor .box_bd img:hover{
+    padding-left: 8px;
+}
+/* 楼层结束 */
+/* 电梯导航开始 */
+.fixedtool{
+    display: none;
+    position: fixed;
+    /* 原生js
+    position: absolute; */
+    top: 200px;
+    left: 50%;
+    margin-left: -675px;
+    width: 66px;
+    background-color: #fff;
+}
+.fixedtool li{
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+    cursor: pointer;
+    transition: all .8s;
+}
+.fixedtool .goBack{
+    background-color: #c81623;
+    color: #fff;
+}
+.fixedtool li:hover{
+    color: #fff;
+    background-color: #c81623;
+}
+.fixedtool ul .current{
+    color: #fff;
+    background-color: #c81623;
+}
+/* 电梯导航结束 */

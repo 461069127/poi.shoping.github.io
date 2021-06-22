@@ -1,0 +1,122 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 头部开始 */
+header{
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+header img{
+    padding-top: 18px;
+}
+/* 头部结束 */
+/* 主体开始 */
+.register{
+    height: 522px;
+    margin: 0 auto;
+    border: 1px solid #ececec;
+    margin-top: 20px;
+}
+.register h3{
+    height: 42px;
+    padding: 0 10px;
+    background-color: #ececec;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.register h3 .logen{
+    float: right;
+    font-size: 14px;
+}
+.register h3 .logen a{
+    color: #c81623;
+}
+.reg-form{
+    width: 600px;
+    margin: 50px auto 0;
+}
+.reg-form ul li{
+    margin-bottom: 20px;
+}
+.reg-form ul li label{
+    text-align: right;
+    display: inline-block;
+    width: 88px;
+    font-size: 14px;
+}
+.reg-form ul li .inp{
+    height: 36px;
+    width: 220px;
+    margin: 0 10px;
+    border: 1px solid #999999;
+}
+.reg-form .error{
+    color: red;
+}
+.reg-form .error .error_icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../image/error_icon.png);
+}
+.reg-form .success{
+    color: green;
+}
+.reg-form .success .success_icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../image/success.png) no-repeat;
+}
+.reg-form .safe{
+    padding-left: 143px;
+}
+.reg-form .safe em{
+    padding: 0 12px;
+}
+.reg-form .safe .ruo{
+    background-color: #de1111;
+}
+.reg-form .safe .zhong{
+    background-color: #40b83f;
+}
+.reg-form .safe .qiang{
+    background-color: #f79100;
+}
+.reg-form .agree{
+    padding-left: 98px;
+}
+.reg-form .agree input{
+    vertical-align: middle;
+}
+.reg-form .agree a{
+    color: blue;
+}
+.reg-form .btn{
+    background-color: #c81623;
+    width: 200px;
+    height: 34px;
+    margin: 30px 0 0 110px;
+    font-size: 14px;
+    color: #fff;
+}
+/* 主体结束 */
+/* 底部开始 */
+.footer{
+    padding-bottom: 30px;
+}
+.mod_copyright{
+    text-align: center;
+    padding-top: 20px;
+}
+.mod_copyright .link{
+    padding-bottom: 15px;
+}
+.mod_copyright .link a{
+    margin: 0 3px;
+}
+/* 底部结束 */

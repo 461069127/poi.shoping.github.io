@@ -1,0 +1,117 @@
+/* 秒杀开始 */
+.sk{
+    position: absolute;
+    left: 190px;
+    top: 38px;
+    padding: 3px 0 0 10px;
+    border-left: 1px solid #b1191a;
+}
+/* 秒杀结束 */
+/* 导航栏开始 */
+.nav{
+    overflow: hidden;
+}
+.nav .sk_list{
+    float: left;
+}
+.nav .sk_list ul li{
+    float: left;
+    padding: 0 15px;
+    line-height: 46px;
+    font-size: 16px;
+}
+.nav .sk_list ul li a{
+    font-weight: 800;
+    color: #000;
+}
+.nav .sk_con{
+    float: left;
+}
+.nav .sk_con ul li{
+    float: left;
+    padding: 0 25px;
+    line-height: 49px;
+    font-size: 14px;
+}
+.nav .sk_con ul li a:hover{
+    color: #b1191a;
+}
+.nav .sk_con ul li:last-child a::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+/* 导航栏结束 */
+
+/* 列表页开始 */
+.sk_container .sk_db{
+    padding-top: 25px;
+}
+.sk_container .sk_db ul li{
+    float: left;
+    margin-right: 13px;
+    margin-top: 10px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+.sk_container .sk_db ul li:hover{
+    border: 1px solid #b1191a;
+}
+.sk_container .sk_db ul li:nth-child(4n){
+    margin-right: 0px;
+}
+.sk_container .sk_db li .top p{
+    padding: 8px 0 0 12px;
+    font-size: 14px;
+}
+.sk_container .sk_db .top span{
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration:line-through;
+}
+.sk_container .sk_db .top p:nth-child(3){
+    text-decoration: none;
+    font-size: 22px;
+    color: #b1191a;
+}
+.sk_container .sk_db .top p i{
+    display: inline-block;
+    width: 132px;
+    border: 1px solid #b1191a;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+.sk_container .sk_db .top p i span{
+    display: block;
+    height: 10px;
+    width: 87%;
+    background-color: #b1191a;
+}
+.sk_container .sk_db .bottom{
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #b1191a;
+}
+/* 分页开始 */
+.page{
+    margin-top: 40px;
+    text-align: center;
+}
+.page .page_num a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;  
+    border: 1px solid #ccc;
+}
+.page .page_num .pn_prev,
+.page .page_num .pn_next
+{
+    width: 83px;
+}
+/* 分页开始 */
+/* 列表页结束 */
